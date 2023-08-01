@@ -1,0 +1,49 @@
+    body {
+        background-image: url ("F:\PROJECT-FIRST\img");
+        background-repeat: no-repeat;  
+        background-size: cover;
+    }
+    h1{
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    font-size: 120px;
+    padding: 0px;
+    }
+    nav{
+    background-color: transparent;
+    text-align: center;
+
+    }
+    ul {
+    list-style-type: none;
+    background-color: transparent;
+    }
+    li {
+    float: center;
+    padding: 10px;
+    font-size: 30px;
+    }
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    }
+    a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    }
+
+    a:hover, a:active {
+    background-color: transparent;
+    color: white;
+    font-size: 120%;
+    }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Internal CSS for Contact Us Section */
+        .contact-section {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            max-width: 400px;
+            margin: 20px;
+        }
+
+        .contact-section h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .contact-section p {
+            color: #666;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #444;
+        }
+        header{
+            padding: 2rem;
+            background-image: url("./img/hotel-sarowar2.jpg");
+            background-repeat: no-repeat;  
+            background-size: cover;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+        a:link, a:visited{
+            background-color: transparent;
+            color: white;
+            border: 2px solid black;
+            padding: 4px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+        }
+        a:hover, a:active {
+            background-color: white;
+            color: black;
+            font-size: 120%;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="./css/header.css"> -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>HOTEL SAROWAR <br> Contact<h1>
+            <a href="home.html">Home</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="room.html">Room</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Main content -->
+
+            <!-- Contact Us section with the 'contact-section' class -->
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <p>
+                    Have questions or need more information? Contact us using the form below.
+                </p>
+                <form class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Full Name" required>
+
+                    Phone number:
+                    <input type="number" id="number" name="number" placeholder="Enter your Phone Number" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" onclick="alert('Message Send')">Send Message</button>
+                </form>
+            </section>
+
+            <!-- Other sections of the website -->
+            <!-- ... -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <!-- ... -->
+    </footer>
+</body>
+
+</html>
